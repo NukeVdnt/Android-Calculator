@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:layout_margin="15dp"
+        android:id="@+id/tvnumbers"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_margin="15dp"
+        android:textSize="25dp"
+        android:id="@+id/tvresult"
+        android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/buttonRow">
+
+        <Button android:layout_weight="2" style="@style/buttonNumber"
+            android:text="AC" android:id="@+id/allclear" android:textColor="@color/red" android:backgroundTint="@color/almostblack"></Button>
+        <Button android:layout_weight="1" style="@style/buttonNumber"
+            android:text="C" android:id="@+id/cancel" android:textColor="@color/red" android:backgroundTint="@color/almostblack"></Button>
+        <Button  android:id="@+id/div" style="@style/buttonOperations" android:text="/" android:backgroundTint="@color/almostblack"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/buttonRow">
+
+        <Button android:id="@+id/seven" style="@style/buttonNumber"
+            android:text="7" android:backgroundTint="@color/almostblack"></Button>
+        <Button android:id="@+id/eight" style="@style/buttonNumber"
+            android:text="8" android:backgroundTint="@color/almostblack"></Button>
+        <Button android:id="@+id/nine" style="@style/buttonNumber"
+            android:text="9" android:backgroundTint="@color/almostblack"></Button>
+        <Button android:id="@+id/mul" style="@style/buttonOperations" android:text="X" android:backgroundTint="@color/almostblack"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/buttonRow">
+
+        <Button android:id="@+id/four" style="@style/buttonNumber"
+            android:text="4" android:backgroundTint="@color/almostblack"></Button>
+        <Button android:id="@+id/five" style="@style/buttonNumber" android:text="5" android:backgroundTint="@color/almostblack"></Button>
+        <Button android:id="@+id/six" style="@style/buttonNumber" android:text="6" android:backgroundTint="@color/almostblack"></Button>
+        <Button android:id="@+id/min" style="@style/buttonOperations" android:text="-" android:backgroundTint="@color/almostblack"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/buttonRow">
+
+        <Button android:id="@+id/one" style="@style/buttonNumber" android:text="1" android:backgroundTint="@color/almostblack"></Button>
+        <Button android:id="@+id/two" style="@style/buttonNumber" android:text="2" android:backgroundTint="@color/almostblack"></Button>
+        <Button android:id="@+id/three" style="@style/buttonNumber" android:text="3" android:backgroundTint="@color/almostblack"></Button>
+        <Button android:id="@+id/plus" style="@style/buttonOperations"  android:text="+" android:backgroundTint="@color/almostblack"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/buttonRow">
+
+        <Button android:id="@+id/dot" style="@style/buttonNumber" android:text="." android:backgroundTint="@color/almostblack"></Button>
+        <Button android:id="@+id/zero" style="@style/buttonNumber" android:text="0"  android:backgroundTint="@color/almostblack"></Button>
+        <Button android:id="@+id/equals" style="@style/buttonNumber" android:text="=" android:layout_weight="2" android:background="@color/orange"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
