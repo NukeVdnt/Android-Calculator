@@ -12,10 +12,6 @@ https://github.com/NukeVdnt/ModernCalculatorAPP/assets/116732251/25db24dd-389d-4
 - Backspace Button: Delete the last character.
 - User-Friendly Interface: Intuitive layout and easy-to-read display.
 
-## Snapshot
-![snapshot](https://github.com/user-attachments/assets/4679fc73-9099-482a-b1d8-813f7675af7b)
-
-
 ## Tech Stack
 
 Technologies Used:
